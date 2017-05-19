@@ -7,22 +7,19 @@ gog_vol2 = media.Movie("Guardians of the Galaxy Vol. 2",
                        "https://www.youtube.com/watch?v=duGqrYw4usE",
                        media.Movie.VALID_RATINGS[2])
 
-#print(gog_vol2.storyline)
-
 wonder_woman = media.Movie("Wonder Woman",
                            "Before she was Wonder Woman she was Diana, princess of the Amazons, trained warrior.",
                            "https://images-na.ssl-images-amazon.com/images/M/MV5BNDFmZjgyMTEtYTk5MC00NmY0LWJhZjktOWY2MzI5YjkzODNlXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SY1000_SX675_AL_.jpg",
                            "https://www.youtube.com/watch?v=INLzqh7rZ-U",
                            media.Movie.VALID_RATINGS[2])
-#print(wonder_woman.storyline)
-#wonder_woman.show_trailer()
+
 
 thor3 = media.Movie("Thor 3 Ragnarok",
                     "Imprisoned, the mighty Thor finds himself in a lethal gladiatorial contest against the Hulk, his former ally.",
                     "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1ODgwOTkzNF5BMl5BanBnXkFtZTgwMDcwMTg5MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
                     "https://www.youtube.com/watch?v=v7MGUNV8MxU",
                     media.Movie.VALID_RATINGS[2])
-#thor3.show_trailer()
+
 
 spiderman_homecoming = media.Movie("Spider-Man: Homecoming",
                                    "Peter Parker attempts to balance his life in high school with his career as the web-slinging superhero Spider-Man",
@@ -44,6 +41,4 @@ sw_the_last_jedi = media.Movie("Star Wars: The Last Jedi",
 
 movies = [sw_the_last_jedi, wonder_woman, thor3, spiderman_homecoming, justice_league, gog_vol2]
 
-#fresh_tomatoes.open_movies_page(movies)
-
-print(gog_vol2.rating)
+fresh_tomatoes.open_movies_page(movies)

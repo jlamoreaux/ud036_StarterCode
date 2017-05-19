@@ -5,12 +5,12 @@ class Video():
     def __init__(self, title, storyline, image):
         self.title = title
         self.storyline = storyline
-        self.image_url = image
+        self.poster_image_url = image
 
 class Movie(Video):
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
-    def __init__(self, title, storyline, image, trailer_youtube, rating):
-        Video.__init__(self, title, storyline, image)
+    def __init__(self, movie_title, movie_storyline, poster_image_url, trailer_youtube, rating):
+        Video.__init__(self, movie_title, movie_storyline, poster_image_url)
         self.trailer_youtube_url = trailer_youtube
         self.rating = rating
 
