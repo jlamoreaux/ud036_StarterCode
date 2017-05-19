@@ -14,7 +14,7 @@ Opening this file will allow you to view the web page.
 
 I added 2 small features that I hope are appreciated:
 
-- Movie Ratings-- Using a predefined class variable, I added an attribute to the movie class to include the movie's MPAA rating.
+- Movie Ratings-- Using a predefined class variable `VALID_RATINGS`, I added the attribute `rating` to the movie class to include the movie's MPAA rating.
 - Parent Class-- I set up the class the `Video` as parent class `Movie` and `TvShow`.
   This allows for expansion in the future to list TV Shows on the website.
 
