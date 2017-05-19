@@ -1,13 +1,13 @@
 # Fresh Tomatoes
 
-This is the final project for Programming Fundamentals in the Udacity Full Stack Web Developer Nandodegree Program.
+This is the final project for _Programming Fundamentals_ in the **Udacity Full Stack Web Developer Nandodegree Program**.
 
 The project is to create the server-side code to store a list of movies with box art imagery and a movie trailer URL.
 The code generates a static web page which allows visitors to brows the movies and watch trailers.
 
 ## Getting Started
 
-Running entertainment_center.py will generate an html page called 'fresh_tomatoes.html'. 
+Running _entertainment_center.py_ will generate an html page called _fresh_tomatoes.html_. 
 Opening this file will allow you to view the web page.
 
 ## Extra Features
